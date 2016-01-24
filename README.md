@@ -13,7 +13,7 @@ Si no queremos mostrar título dentro de la Imagen
   parallaxListView.setVisibleTitle(false);
 </pre></code>
 
-Si queremos deshabilitar los efectos de Parallax (ImageView) y Alpha (Textview)
+Si queremos deshabilitar los efectos de Parallax (ImageView) y Alpha (TextView)
 <code><pre>
   parallaxListView.setAlphaEnable(false);
   parallaxListView.setParallaxEnable(false);
