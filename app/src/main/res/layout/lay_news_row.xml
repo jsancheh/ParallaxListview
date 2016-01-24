@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/colorBackgroundListRow"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+
+    <com.joseluis.parallaxlistview.views.CircularImageView
+        android:id="@+id/item_imageView"
+        android:layout_width="@dimen/ic_news_size"
+        android:layout_height="@dimen/ic_news_size"
+        android:layout_marginTop="@dimen/marginMedium"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_news"
+        />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_marginTop="@dimen/marginSmall"
+        android:textSize="@dimen/titleSize"
+        android:layout_marginRight="@dimen/marginBig"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/marginSmall"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorTitleList"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_imageView"
+        android:text="@null"
+        />
+
+    <TextView
+        android:id="@+id/tvFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_imageView"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="@dimen/marginSmall"
+        android:layout_marginLeft="@dimen/marginSmall"
+        android:textSize="@dimen/descSize"
+        android:textStyle="bold"
+        android:textColor="@color/colorDescList"
+        android:text="@null"
+        />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_imageView"
+        android:layout_below="@id/tvFecha"
+        android:layout_marginTop="@dimen/marginSmall"
+        android:layout_marginRight="@dimen/marginBig"
+        android:layout_marginLeft="@dimen/marginSmall"
+        android:paddingBottom="@dimen/marginBig"
+        android:textSize="@dimen/titleSize"
+        android:textColor="@color/colorDescList"
+        android:text="@null"
+        />
+
+</RelativeLayout>
