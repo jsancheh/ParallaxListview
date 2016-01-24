@@ -29,7 +29,7 @@ MainActivity.xml
   </com.joseluis.parallaxlistview.views.ParallaxListView>
 ```
 
-Hearder View (Parallax)
+lay_parallax_img.xml (Parallax)
 
 ```xml
   <?xml version="1.0" encoding="utf-8"?>
