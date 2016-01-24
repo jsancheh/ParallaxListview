@@ -5,7 +5,7 @@ Ejemplo:
 <code><pre>
   ParallaxListView parallaxListView = (ParallaxListView) findViewById(R.id.pListView);<br />
   parallaxListView.addSourceToImage(R.mipmap.img_parallax);<br />
-  parallaxListView.setTitle("Nuestro Título");<br />
+  parallaxListView.setTitle("Título");<br />
 </pre></code>
 
 Si no queremos mostrar título dentro de la Imagen
