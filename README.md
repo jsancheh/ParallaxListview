@@ -28,3 +28,7 @@ MainActivity.xml
     android:layout_height="match_parent">
   </com.joseluis.parallaxlistview.views.ParallaxListView>
 ```
+
+![alt tag](https://github.com/jsancheh/ParallaxListview/blob/master/captura1.png)
+
+![alt tag](https://github.com/jsancheh/ParallaxListview/blob/master/captura2.png)
