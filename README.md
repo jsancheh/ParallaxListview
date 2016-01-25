@@ -1,5 +1,5 @@
 # ParallaxListview
-Proyecto que implementa un Listview custom con efecto Parallax sin tener que implementar nada en tu proyecto.
+Proyecto que implementa un Listview custom con efecto Parallax de una forma muy sencilla. Sólo necesitas importar a tu proyecto la clase ParallaxListView.java y el recurso lay_parallax_img.xml.
 
 Ejemplo: 
 <code><pre>
