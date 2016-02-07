@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.joseluis.parallaxlistview.R;
 
+
 /**
  * Parallax Class
  *
