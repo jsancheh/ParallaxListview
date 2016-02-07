@@ -53,15 +53,17 @@ public class ParallaxListView extends ListView implements AbsListView.OnScrollLi
      */
     private boolean parallaxEnable = true;
 
-    /**
-     * Valor inicial del texto
-     */
     private static final float ALPHA_INICIAL = 1.0f;
 
     /**
      * Valor que se usa como referencia para aumentar o disminuir el efecto alpha
      */
     private float alphaDiff = 0;
+
+    /**
+     * valor Alpha inicial
+     */
+    private float alpha = ALPHA_INICIAL;
 
     /**
      * Variable que configura si debe mostrarse el titulo o no
@@ -99,6 +101,7 @@ public class ParallaxListView extends ListView implements AbsListView.OnScrollLi
     private static final float DIV = 1F;
 
     /**
+
      * Constructor por defecto
      * @param context - conexto de la aplicación
      */
@@ -294,7 +297,5 @@ public class ParallaxListView extends ListView implements AbsListView.OnScrollLi
     public void setmContext(Context mContext) {
         this.mContext = mContext;
     }
-
-
 
 }
