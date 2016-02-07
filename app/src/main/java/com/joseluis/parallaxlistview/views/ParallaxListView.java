@@ -145,15 +145,14 @@ public class ParallaxListView extends ListView implements AbsListView.OnScrollLi
         LayoutInflater inflater = (LayoutInflater) getmContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         ViewGroup headerParallax = (ViewGroup) inflater.inflate(R.layout.lay_parallax_img, this, false);
 
-        //get image from header
+        //obtenemos el titulo y la imagen
         mParallaxImage = (ImageView) headerParallax.findViewById(R.id.imgParallax);
         mParallaxTitle = (TextView) headerParallax.findViewById(R.id.tvParallax);
         mParallaxTitle.setVisibility(isVisibleTitle() ? VISIBLE : GONE);
 
-        //add image to header
+        //añadimos la vista al header
         addHeaderView(headerParallax);
     }
-
 
     @Override
     public void onScrollStateChanged(AbsListView absListView, int i) {}
