@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorTransparent</item>
+        <item name="colorPrimaryDark">@color/colorTransparent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="headerText">
+        <item name="android:paddingLeft">4px</item>
+        <item name="android:paddingBottom">4px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:shadowColor">#333333</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+</resources>
