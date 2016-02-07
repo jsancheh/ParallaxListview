@@ -54,12 +54,10 @@ public class ParallaxListView extends ListView implements AbsListView.OnScrollLi
      */
     private boolean parallaxEnable = true;
 
-    private static final float ALPHA_INICIAL = 1.0f;
-
     /**
-     * Valor que se usa como referencia para aumentar o disminuir el efecto alpha
+     * Valor inicial de la vista (alpha)
      */
-    private float alphaDiff = 0;
+    private static final float ALPHA_INICIAL = 1.0f;
 
     /**
      * valor Alpha inicial
@@ -170,7 +168,7 @@ public class ParallaxListView extends ListView implements AbsListView.OnScrollLi
         }
 
         //obtenemos el incremento unitario para el alpha
-        alphaDiff = DIV / mParallaxImage.getHeight();
+        float alphaDiff = DIV / mParallaxImage.getHeight();
 
         //multiplcamos ese incremento por la posicion
         float alpha = getChildAt(FIRST_POS).getTop() * alphaDiff;
